@@ -56,7 +56,6 @@ nav{
     background-position:top;
     background-clip:content-box;
 }
-
 #menu{
     list-style: none;
     border: 1px solid #fff; 
@@ -64,7 +63,10 @@ nav{
     padding-left: 4%; 
     background-color: #000;
 }
-
+#barra{
+    position: relative;
+    
+}
 #menu li{
     list-style: none;
     position: relative;
@@ -80,14 +82,21 @@ nav{
     display:block;
 }
 
-#barra{
-    background-color:#000;
-}
+
 #menu li a:hover{
     background-color:#014b50;
     transition: 1s;
 }
-
+/* #barra{
+    
+text-align:center;
+width: 117%;
+height: 100%;
+position: relative;
+margin-left: -100px;
+position:relative;
+display: block;
+} */
 /*submenu*/
 #menu li ul{
     position:absolute;
@@ -147,10 +156,11 @@ section{
     display: inline-block;
 } */
 
+
  .box{
     float:none;
     margin-left: none;
-    margin-top: 10%;
+    background-color: violet;
     display: inline-block;
     width: 30%;
     
