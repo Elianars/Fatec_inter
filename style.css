@@ -59,7 +59,7 @@ nav{
 
 #menu{
     list-style: none;
-    border: 1px solid #fff; 
+    border: 1px solid #000; 
     float: left;
     padding-left: 4%; 
 }
@@ -79,6 +79,9 @@ nav{
     display:block;
 }
 
+#barra{
+    background-color:#000;
+}
 #menu li a:hover{
     background-color:#014b50;
     transition: 1s;
@@ -89,7 +92,7 @@ nav{
     position:absolute;
     top: 25px;
     left: 0;
-    background-color:#b00000;
+    background-color:#000;
     display: none;
 }
 
@@ -98,7 +101,8 @@ nav{
 }
 
 #menu li ul li{
-    border: 1px solid #fff;
+    border: 1px solid #000;
+    background-color:rgb(26, 194, 124);
     display: block; 
     width: 150px;
 }
