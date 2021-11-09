@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aula comentários, metadados, listas e layout">
+    <meta name="keyword" content="HTML, Comentários, Listas, Layout, Elemetos Semânticos">
+    <meta name="author" content="Talita Alves">
+    <title>Aula 12</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagem/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="topo">
+        <!--Topo da página-->
+        <div id="acessibilidade">
+            <ul id="atalhos">
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo[1]</a>
+                </li>
+                <li><a href="#menu" accesskey="2" title="Ir para o menu"> Ir para o menu[2] </a></li>
+                <li><a href="#rodape" accesskey="3"> Ir para o rodapé[3]</a></li>
+                <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">
+                        ACESSIBILIDADE</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="contraste"> CONTRASTE PRETO</a></li>
+                <li class="contraste"><a href="javascript:void(0);" id="sem_contraste"> SEM CONTRASTE</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="aumentar"> A +</a></li>
+                <li class="fonte"><a href="javascript:void(0);" id="diminuir"> A -</a></li>
+
+            </ul>
+        </div>
+        <!--colocar o logo do topo!-->
+        <nav>
+            <img id="logo" src="imagem/LOGO1.BANNERPRINCIPAL.png" alt="imagem com o logo Bora pro rolê">
+        </nav>
+        <label for="bt_menu"><img src="imagem/menu_.png" alt="menu"></label>
+        <input type="checkbox" id="bt_menu">
+       
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="encontreseurole.html">Encontre seu rolê</a></li>
+                <li><a href="cadastrar.html">Cadastrar</a></li>
+                <li><a href="publicar.html">Quer publicar um rolê?</a>
+                <li><a href="layout.html">Quem somos</a></li>
+                <li><a href="quemsomos.html">Login</a></li>
+            </ul>
+
+       
+
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
+    </header>
+
+    <main id="conteudo">
+
+        <h1>Quem somos</h1>
+        <ul class="breadcrumb">
+            <li><a href="index.html">Início</a></li>
+            <li>Quems somos</li>
+        </ul>
+
+        <section>
+            <p> Metadados são dados externos à página que são usados pelos navegadores (como exibir contéudo), pelos
+                mecanismos de pesquisas (palavras-chave) e outros serviços da web.</p>
+            <img src="imagem/metadados.png" alt="imagem com conteúdo explicativo sobre de metadados em HTML.">
+        </section>
+    </main>
+    <!--contéudo principal da página-->
+    <footer id="rodape">
+
+        <p id="mapa">Mapa do site</p>
+        <ul id="eventos">
+            <p id="ul1">Eventos</p><br>
+            <ul id="li">Hoje</ul>
+            <ul id="li">Semana</ul>
+            <ul id="li">Mês</ul>
+        </ul>
+
+        <ul id="cidades">
+            <p id="ul2">Cidades</p><br>
+            <ul id="li1">São Paulo</ul>
+            <ul id="li1">Belo Horizonte</ul>
+            <ul id="li1">Rio de Janeiro</ul>
+            <ul id="li1">Porto Alegre</ul>
+            <ul id="li1">Brasília</ul>
+            <ul id="li1">Salvador</ul>
+            <ul id="li1">Curitiba</ul>
+            <ul id="li1">Recife</ul><br>
+        </ul>
+
+        <ul id="categorias">
+            <p id="ul3">Categorias<p><br>
+                    <ul>Shows</ul>
+                    <ul>Teatros</ul>
+                    <ul>Gratis</ul>
+                    <ul>Infantil</ul><br>
+        </ul>
+
+        <ul id="seurole">
+            <p id="ul4">Seu Rolê</p><br>
+            <ul>Cadastrar</ul>
+            <ul>Login</ul>
+        </ul>
+
+        <ul id="ajuda">
+            <ul>Ajuda</ul><br>
+            <ul>Central de Ajuda</ul><br>
+            <ul>Compradores e Participantes</ul><br>
+            <ul>Produtores de Eventos</ul>
+        </ul>
+
+        <p id="home">Home</p>
+
+        <p id="faleconosco">Fale Conosco</p>
+
+
+        <p id="copyright"> Bora pro Rolê &copy;Copyright 2021</p>
+
+
+    </footer>
+    <!--roda pé da página
+    -->
+</body>
+
+</html>
