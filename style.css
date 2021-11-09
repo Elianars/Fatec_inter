@@ -59,9 +59,10 @@ nav{
 
 #menu{
     list-style: none;
-    border: 1px solid #000; 
+    border: 1px solid #fff; 
     float: left;
     padding-left: 4%; 
+    background-color: #000;
 }
 
 #menu li{
@@ -73,7 +74,7 @@ nav{
 
 #menu li a{
     font-family: arial, Helvetica, sans-serif;
-    color:#000;
+    color:#fff;
     text-decoration: none;
     padding: 5px 10px;
     display:block;
@@ -131,22 +132,56 @@ label[for="bt_menu"]{
 section{
     padding: 3%
 }
-.principal{
+/* .principal{
     background-color: midnightblue;
-}
-.box{
-    float:left;
+    width: 150px;
+	display: inline-block;
+    display: inline-block;
+} */
+
+
+
+/* div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+} */
+
+ .box{
+    float:none;
     margin-left: none;
     margin-top: 10%;
     display: inline-block;
     width: 30%;
-    /* height:15%; */
-/*  
+    
+     /* height:15%; 
+
     height: 50px;
     
     width: 150px;
 	display: inline-block;
-    padding-left: 10%; */
+    padding-left: 10%; */ 
+}
+
+#div1{
+    background-color:darkgreen;
+    padding-right:3px;  /*direito */
+    padding-left: 3px; /*esquerdo */
+}
+
+#div2{
+    background-color:rgb(100, 0, 78);
+    padding-right:3px;  /*direito */
+    padding-left: 3px; /*esquerdo */
+}
+#div3{
+    background-color:rgb(192, 11, 11);
+    padding-top: 2px;
+    border-bottom: 3px;
+    width: 2%;
+    padding-right:5px;  /*direito */
+    padding-left: 5px; /*esquerdo */
+    padding-bottom:10px;
 }
 
 #imagem{
