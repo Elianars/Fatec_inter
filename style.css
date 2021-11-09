@@ -131,6 +131,21 @@ label[for="bt_menu"]{
 section{
     padding: 3%
 }
+.principal{
+    background-color: midnightblue;
+}
+.box{
+    float: left;
+    margin-left: 5%;
+    margin-top: 10%;
+    display: inline-block;
+/*  
+    height: 50px;
+    
+    width: 150px;
+	display: inline-block;
+    padding-left: 10%; */
+}
 
 #imagem{
     width: 40%;
