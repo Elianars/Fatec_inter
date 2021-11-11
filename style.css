@@ -68,7 +68,7 @@ nav{
 }
 #menu{
     list-style: none;
-    background-image: linear-gradient(rgb(252, 241, 92), rgb(10, 10, 10));
+    background-image: linear-gradient(rgb(148, 148, 141), rgb(10, 10, 10));
     float: left;
     background-color: #000;
     width: 100%;
@@ -89,7 +89,7 @@ nav{
 
 #menu li a{
     font-family: arial, Helvetica, sans-serif;
-    background-image: linear-gradient(rgb(252, 241, 92), rgb(10, 10, 10));
+    background-image: linear-gradient(rgb(148, 148, 141), rgb(10, 10, 10));
     color:#fff;
     position: center center;
     text-decoration: none;
