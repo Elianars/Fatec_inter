@@ -19,6 +19,7 @@ body{
     height: auto;
     background-color:#087c77;
     margin: auto;
+
 }
 
 #atalhos{
@@ -37,7 +38,10 @@ body{
     color:#3e3e3e;
 }
 #pgacess{
+    /* padding-left: 50%; */
     padding-left: 50%;
+    margin-right: auto;
+    padding-left: 40%;
 }
 #contraste, .fonte{
     padding-left: 5px;
@@ -472,7 +476,7 @@ input[type=reset]{
     }
     
     /* .botao,select {
-        /* cursos: pointer; */
+        /* cursos: pointer; 
     } */
     #check{
         display:inline-block
