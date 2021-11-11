@@ -38,10 +38,10 @@ body{
     color:#3e3e3e;
 }
 #pgacess{
-    /* padding-left: 50%; */
-    padding-left: 50%;
+    padding-left: 30%;
+    /* padding-left: 50%;
     margin-right: auto;
-    padding-left: 40%;
+    padding-left: 40%; */
 }
 #contraste, .fonte{
     padding-left: 5px;
@@ -60,7 +60,7 @@ nav{
     min-height: none;
     background-color: #087c77;
     float: left;
-    padding: 1px;
+    padding: 0px;
     background-image: none;
     background-position:top;
     background-clip:content-box;
@@ -99,17 +99,7 @@ nav{
     background-color:#014b50;
     transition: 1s;
 }
-/* #barra{
-    
-text-align:center;
-width: 117%;
-height: 100%;
-position: relative;
-margin-left: -100px;
-position:relative;
-display: block;
-} */
-/*submenu*/
+
 #menu li ul{
     position:absolute;
     top: 25px;
@@ -139,11 +129,12 @@ label[for="bt_menu"]{
 
 #conteudo{
     width: 100%;
-    min-height: 600px;
+    min-height: 900px;
     font-family: arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
     background-color:#fff;
+    
 }
 
 #conteudo h1{
@@ -151,48 +142,89 @@ label[for="bt_menu"]{
 }
 
 section{
-    padding: 3%
+    padding:0px;
+    width:100px;
 }
 
 
 
 
 
- .box{
+ .principal{
     float:none;
     margin-left: none;
-    background-color: violet;
+    background-color:rgb(160, 214, 12);
     display: inline-block;
-    width: 30%;
+    width: 100%;
+    height:100;
+    position:absolute;
+    display: flex;
+    background-position: center;
+    bottom:auto;
+    padding-top: 21px;
     
+
     
 }
 
 #div1{
-    background-color:darkgreen;
-    padding-right:3px;  /*direito */
-    padding-left: 3px; /*esquerdo */
+   
+    background-position: center; 
+    background-color:rgb(192, 11, 11);
+    padding-top: 2px;
+    padding-bottom:10px;
+    display: inline-block;
+    display: flex;
+    width: 35em;
+    height: 45em;
+    border-bottom: 1em;
+    padding-top:1 ;
+    margin-left:auto;
+    border-radius: 1em;
+    border-top: 1em;
+    
+
 }
 
 #div2{
-    background-color:rgb(100, 0, 78);
-    padding-right:3px;  /*direito */
-    padding-left: 3px; /*esquerdo */
+    background-position: center; 
+    background-color:rgb(30, 70, 180);
+    padding-top: 2px;
+    padding-bottom:10px;
+    display: inline-block;
+    display: flex;
+    width: 35em;
+    height: 45em;
+    border-bottom: 1em;
+    padding-top:1 ;
+    margin-left:auto;
+    border-radius: 1em;
+    border-top: 1em;
+   
+   
 }
 #div3{
+    background-position: center; 
     background-color:rgb(192, 11, 11);
     padding-top: 2px;
-    border-bottom: 3px;
-    width: 2%;
-    padding-right:5px;  /*direito */
-    padding-left: 5px; /*esquerdo */
     padding-bottom:10px;
+    display: inline-block;
+    display: flex;
+    width: 35em;
+    height: 45em;
+    border-bottom: 1em;
+    padding-top:1 ;
+    margin-left:auto;
+    border-radius: 1em;
+    border-top: 1em; 
 }
 
 #imagem{
-    width: 40%;
-    height: auto;
- 
+    width:40%;
+    height:auto;
+    
+   
+    
 }
 
 #video{
@@ -206,13 +238,21 @@ iframe{
 
 #rodape{
     font-family: 'Big Shoulders Text', cursive;
-    font-size: 1em;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
     color: #000;
-    background-color: #9b9999;
-    padding-top:1%;
+    background-color: #9b9999; 
+    padding-top:1px;
     text-align: center;
-    width: 100%;
-    height: 240px;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    position:relative;
+    padding: 1px; 
+    
+    
 }
 
 input, select{
@@ -327,6 +367,7 @@ input[type=reset]{
         }
         .contraste, .fonte{
             padding-left: 5px;
+           
         }
     }
     @media screen and (max-width: 1280px){
@@ -345,49 +386,146 @@ input[type=reset]{
     }
 }
 #mapa{
-    margin-right: 89%;
-    margin-top: 5px;     
+    margin-right: 8%;
+    margin-top: 5px; 
+    display:inline-block; 
+    display: flex;
+    width: 10%; 
+    height: 80%; 
+       
 }
 #cidades{
-    margin-top: 7px;   
+    list-style: none;
+    width: 10%; 
+    height: 80%; 
+    /* margin-top: -2.5em;  
+    display:inline-block;*/
+     /* display: flex; */
+    /*margin-right: 3%; 
+    display:flex; 
+    list-style: none;
+    width: 25%; 
+    float:none; */
 }
 #eventos{
     list-style: none;
-    margin-right: 90%;
-    margin-top: 25px;
+    width: 1em; 
+    height: 80%; 
+    /*justify-content: space-around;
+    align-items: center;
+    /* margin-right: 90%; 
+     margin-right: 3%;  
+    margin-top: -2.5em;
+    display:flex;
+     justify-content:space-between; 
+    display:inline-block;
+    display: flex; 
+     width: -1.5em;  
+    display: inline-block; 
+    float:none; */
+
 }
 #cidades{
     list-style: none;
-    margin-right: 78%;
-    margin-top: -84px;
+    justify-content: space-around;
+    width: 15%; 
+    height: 80%; 
+    
+    
+    /* margin-right: 78%; 
+    margin-top: -2.5em;
+    
+    justify-content: space-between; 
+    display:inline-block;
+    display: flex; */
+    
+
 }
 #categorias{
     list-style: none;
+    width: 10%; 
+    height: 80%; 
+   
+    
+    /* list-style: none;
     margin-right: 65%;
-    margin-top: -187px;
+    margin-top: -2.5em;
+    display:flex;
+    /* justify-content: space-between; 
+    display:inline-block;
+    width: 1%; 
+    float:right;
+    padding-top: 10px; */
+    
 }
 #seurole{
-    list-style: none;
-    margin-right: 52%;
-    margin-top: -118px;
+    width: 10%; 
+    height: 80%; 
+     
+     list-style: none;
+
+    
+    /* margin-right: 15em;
+    margin-top: -2.5em;
+    display:flex;
+    justify-content: start; 
+    display:inline-block;
+    width: 25%;  */ 
+    
 }
 #ajuda{
     list-style: none;
-    margin-left: 29%;
-    margin-top: -68px;
-    text-align: justify;
+    width: 10%; 
+    height: 80%; 
+    /* list-style: none;
+    margin-left: 50%;
+    margin-top: -68%;
+    /* text-align: justify; 
+    display:flex;
+    /* justify-content: space-between; 
+    display:inline-block;
+    width: 10%;  */
+    
 }
 #home{
-    margin-right: 9%;
+    width: 10%; 
+    height: 80%;
+    /* margin-right: 9%;
     margin-top: -118px;
+    display:inline-block;
+    display: flex;
+    width: 10%;   */
 }
 #faleconosco{
-    margin-left: 87%;
-    margin-top: px;
+    width: 10%; 
+    height: 80%;
+    /* margin-left: 5%;
+    margin-top: 1.5em;
+    display:inline-block; */
 }
 #copyright{
-    margin-left: 80%;
-    margin-top: 95px;
+    text-indent:9%;
+    font-size: 0.8em;
+    padding-top: 15%;
+    text-align:justify;
+    margin-left: 5em;
+        right: 80em;
+    
+    /* margin-block-end: 50px; */
+    /* text-align: center; */
+   
+    /* width: 50em; */
+    /* height: 1em; */
+
+     /*margin-left: 80%;
+    margin-top: 1.5em; 
+    display:flex;  */
+
+    /* margin-top: 5px;  */
+    /* display:inline-block;  */
+    /* display: flex; */
+   
+   
 }
 
 
