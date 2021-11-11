@@ -154,7 +154,8 @@ section, aqui{
     position:relative;
     width:100%;
     height: 100vh;
-    background: url(imagem/login3.jpg);
+    background: url(imagem/login12.jpg);
+    opacity: .0,5,3,5,2.5;
     background-size: cover;
     background-position:center center;
   
@@ -165,11 +166,11 @@ position: absolute;
 top:50%;
 left:50%;
 transform:translate(-50%,-50%);
-background:linear-gradient(rgba(0,0,0,0.3)),(rgba(0,0,0,0.3)); 
+background:linear-gradient(rgba(1, 1, 8, 0.3)),(rgba(0,0,0,0.3));  /*sombra do login*/
 width:380px;
 padding: 50px 30px;
 border-radius: 10px;
-box-shadow:7px 7px 60px #000;
+box-shadow:7px 7px 60px rgb(41, 39, 158);
 
 
 }
