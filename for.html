@@ -1,0 +1,53 @@
+<section>
+ 
+    <form name="contato" id="contato" method="POST">
+        <fieldset>
+            <legend>Dados pessoais </legend><br>
+            <label for="nome" class="required">Nome Completo </label><br>
+            <input type="text" name="nome" id="nome" required placeholder="Nome Completo"><br>
+            <label for="cpf" class="required">CPF</label><br>
+            <input type="text" name="cpf" id="cpf" required placeholder="111.111.111.11"><br>
+            <label for="date" class="required">Data de nascimento</label><br>
+            <input type="date" name="data" id="data" required><br>
+            <label for="telefone">Telefone</label><br>
+            <input type="tel" name="telefone" id="telefone" placeholder="(11) 1111-1111"><br>
+            <label for="celular">Celular</label><br>
+            <input type="tel" name="celular" id="celular" placeholder="(11) 11111-1111"><br>
+            <label for="email" class="required">E-mail</label><br>
+            <input type="email" name="email" id="email" required placeholder="nome@dominio.com.br"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <label for="cep" class="required">CEP</label><br>
+            <input type="text" name="cep" id="cep" required placeholder="08000-000"><br>
+            <label for="rua">Rua</label><br>
+            <input type="text" name="rua" id="rua"><br>
+            <label for="numero" class="required">Número</label><br>
+            <input type="number" name="numero" id="numero" required><br>
+            <label for="numero">Complemento</label><br>
+            <input type="number" name="Complemento" id="Complemento"><br>
+            <label for="bairro">Bairro</label><br>
+            <input type="text" name="bairro" id="bairro"><br>
+            <label for="cidade">Cidade</label><br>
+            <input type="text" name="cidade" id="cidade"><br>
+            <label for="estado">Estado</label><br>
+            <input type="text" name="estado" id="estado"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da mensagem</legend>
+            <label for="assunt"class="required">Assuntos</label><br>
+            <select name="assunto" id="assunto" required>
+                <option value="" selected disabled> Selecione um assunto</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Reclamação">Reclamação</option>
+            </select><br>
+            <label for="mensagem">Mensagem</label><br>
+            <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem aqui" rows="10"
+                cols="50"></textarea>
+        </fieldset>
+        <input type="submit" name="enviar" id="enviar" value="Enviar">
+        <input type="reset" name="limpar" id="limpar" value="limpar">
+
+    </form>
+</section>
