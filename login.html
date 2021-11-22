@@ -66,39 +66,32 @@
 
     <main id="conteudo">
         <div class=" migalhas">
-            <h1>Login</h1>
+            <!-- <h1>Login migalhas</h1> -->
             <ul class="breadcrumb">
                 <li><a href="index.html">Início</a></li>
-                <li>Login</li>
+                <li>login</li>
             </ul><br>
-            <p>Por favor informe seus dados para realizar o login .</p><br>
+            <!-- <p>Por favor informe seus dados para realizar o login .</p><br> -->
         </div>
-        <section class="ffff">
-            <div class="form-container">
-                <!-- /*Inicio formulario */ -->
-                <form action="#">
-                    <div class="control">
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" id="name">
+        <!-- <--inicio formulario -->
+        <section class="form-section">
+            <h1>LOGIN</h1>
+            <div class="form-wrapper">
+                <form action="">
+                    <div class="input-block">
+                        <label for="login-email">Email</label>
+                        <input type="email" id="login-email" />
                     </div>
-                    <div class="control">
-                        <label for="psw">Senha</label>
-                        <input type="password" name="psw" id="psw">
+                    <div class="input-block">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" />
                     </div>
-                    <span><input type="checkbox">Lembra-me</span>
-                    <div class="control">
-                        <h3 class="bt">acessar </h3>
-                        <input class=" bt" id="aqui" type="submit" value="ok">
-                    </div>
-
+                    <button type="submit" class="btn-login">ENTRAR</button>
                 </form>
-
-                <div class="link">
-                    <a href="#">Esqueci a senha!</a>
-                </div>
             </div>
-            <!-- /*Fim formulario */ -->
         </section>
+
+        <script src="script.js"></script>
 
     </main>
     <!--contéudo principal da página-->
