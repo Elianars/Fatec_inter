@@ -337,6 +337,19 @@ input {
 }
 
 /*FIM FORMULARIO*/
+
+
+#botaBusca{  /*botao busca evento */
+    /* margin:15px; */
+    margin-top:0,5em;
+    display: flex;
+    width: 30%;
+    height: 45px;
+    margin-left: 3px;
+    padding:1px;
+    padding-inline: 10%;
+
+}
 #pq {
     padding-left: 15%;
 
@@ -522,8 +535,8 @@ h3 {
     background-position: center;
     /* bottom:35%; */
     padding-top: 3%;
-    padding-bottom: 0%;
-    margin-bottom: 0.1em;
+    /* padding-bottom: 0%; */
+    /* margin-bottom: 0.3em; */
 
 
     /*estava em 14px antes de mexer 2111*/
@@ -539,11 +552,11 @@ h3 {
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 50%;
     display: inline-block;
     display: flex;
     width: 35em;
-    height: 35em;
+    height: 45em;
     border-bottom: 1em;
     padding-top: 1;
     margin-left: auto;
@@ -562,7 +575,7 @@ h3 {
     display: inline-block;
     display: flex;
     width: 35em;
-    height: 35em;
+    height: 45em;
     border-bottom: 1em;
     padding-top: 1;
     padding-left: 4em;
@@ -581,11 +594,11 @@ h3 {
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 2px;
-    padding-bottom: 10px;
+    padding-bottom: 1px;
     display: inline-block;
     display: flex;
     width: 35em;
-    height: 35em;
+    height: 45em;
     border-bottom: 1em;
     padding-top: 1px;
     margin-left: auto;
