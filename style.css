@@ -76,10 +76,10 @@ section {
     display: inline;
     padding: 1% 7em;/*centraliza os inut dentro do box*/
     position: relative;
-    background-color: rgb(234, 238, 236);
+    background-color: rgb(227, 236, 232);
     margin-right: 10px;
     border:9px;
-    border: 1px solid #ccddef;
+    
 
 
 }/*  plano de fundo login*/
@@ -96,7 +96,7 @@ h1 {
     font-size: 45px;
     letter-spacing: 1px;
     margin: 70px 0;
-    color:#087c77;
+    color:#000;
     
 }
 
@@ -199,13 +199,13 @@ body {
     
 }
 
-/* form */
+/* form  cadastre e publicar*/
 #main-container {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
     /* background-color: #FFF; */
-    color: #087c77;
+    color: #030303;/*label*/
     border-radius: 20px;
     padding: 1px;
     /* background-color: #ece3e4; */
@@ -216,11 +216,16 @@ body {
 
 #main-container h1 { /* topo cadastre-se */
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 1em;
     font-size: 1.8rem;
-    background-color: #087c77;
+    background-color:rgb(18, 201, 79);
+    color:#000;
     border-radius:20px;
-   
+    margin: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 102%;
+    
     
 
 }
@@ -245,12 +250,14 @@ form {
 .half-box {
     flex: 1 1 45%;
     position: relative;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
     
  
 }
 
 .spacing {
-    margin-right: 2.5%;
+    margin-right: 1.5%;
     padding-left: 1%;
     
     
@@ -288,6 +295,9 @@ input[type="submit"] {
     height: 60px;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 35px;
+    width: 65%;
     
 }
 #nome{
@@ -671,9 +681,10 @@ h3 {
 
 }
 
-.venda {
+.venda {/*h2 pagina*/
     display: inline;
     padding-left: 35%;
+    margin-left: 250px;
 }
 
 #inputt {
