@@ -601,27 +601,14 @@ h3 {
 }
 
 
-/* #div5 { */
-    
-/*IMAGEM PAGINA DE RESULTADO DE PESQUISA */
-    /* background-position: center;
-    /* background-color:rgb(192, 11, 11); */
-    /* padding-left: 3em; */
-    /* padding-right: 3em; */
-    /* padding-top: 2px; */
-    /* padding-bottom: 1px; */
-    /* display: inline-block; */
-    /* display: flex; */
-    /* width: 35em; */
-    /* height: 1em; */
-    /* border-bottom: 1em; */
-    /* padding-top: 1;
-    margin-left: auto; */
-    /* border-radius: 1em; */
-    /* border-top: 1em;  */
-
-
-
+#div5 {
+    background-position: center;
+    /* background-color:rgb(192, 11, 162); */
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2px;
+     width: 80em;
+    height: 35em
 }
 
 #imagemevento {
