@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+
+/* body {
+    font-size: 14px;
+    display: grid;
+    /* estava no codigo antes*/
+    /*background-color: #7159c1;*/
+
+
+
 #topo {
     width: 100%;
     height: auto;
@@ -20,14 +29,23 @@
 }
 
 
+/* html,
 body {
-    background-color: #9b9999;
+    height: 100vh;
+    background-color: #212022;
+    position: absolute;
+   
+    
+} */
+
+body {
+    background-color:  #9b9999;
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     display: grid;
+  
 
 }
-
 
 section {
     display: flex;
@@ -42,103 +60,145 @@ section {
 .form-section {
     /* background-color: #7159c1; */
     background-color: #22d8cf;
-    background-image: imagem;
+    background-image:imagem;
 
-
-
+    
+ 
+}
+/*botoes verdes  cdastrar publicar um role */
+.form-section,
+button {
+    background-color: rgb(87, 226, 87);
+    margin: 8px 0;
+    font-family: 'Big Shoulders Text', cursive;
+    /* list-style: none; */
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1%;
+    width: 15em;
+    height: 3em;
+    /* right: 110%; */
+    right: 1px;
+    left: 1px;
+    display:center;
+    padding: 14px 25px;
+    border-radius: 2px;
+    position:relative;
+ 
+}
+.form-section,
+publicar {
+    background-color: rgb(211, 204, 108);
+    margin: 2px ;
+    font-family: 'Big Shoulders Text', cursive;
+    /* list-style: none; */
+    color:black;
+    padding-left: 10em;
+    padding-right: 100rem;
+    padding-top: 4px;
+    width: 100%;
+    height: 100rem;
+    right: 110%;
+    display:center;
+    padding: 5em 5px;
+    border-radius: 2px; /*bore*/
+    position:relative;
+    padding-bottom: 10em;
+ 
+}
+.form-wrapper {
+    /* background-color: rgb(42, 48, 42); */
+    margin: 8px 0;
+    font-family: 'Big Shoulders Text', cursive;
+    /* list-style: none; */
+    color:black;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 50em;
+    height: 100em;
+    right: 1em;
+    display:inline;
+    padding: 1% 10em;
+    position: relative;
+    
+   
+ 
+}
+#publicar {
+    /* background-color: rgb(42, 48, 42); */
+    margin: 8px 0;
+    font-family: 'Big Shoulders Text', cursive;
+    /* list-style: none; */
+    color:black;
+    padding-left: 1px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 15;
+    height: 80%;
+    right: 11%;
+    display:inline;
+    padding: 1em 10em;
+    position: relative;
+    
+   
+ 
 }
 
-#quemsomos {
+
+#quemsomos{
     font-family: 'Big Shoulders Text', cursive;
-    background-color: rgb(188, 188, 238);
-    height: 70%;
+    background-color: rgb(188, 188, 238); 
+   height: 70%;
     /* background-image: url(imagem/evento.jpg );  */
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     opacity: 85%;
     margin-top: 10%;
     padding-bottom: 1%;
 }
-
-#imagemquemsomos {
+#imagemquemsomos{
     width: 80%;
     padding-bottom: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
 
 }
-
-/*formulario login*/
-.form-wrapper {
-    /* background-color: rgb(42, 48, 42); */
-    margin: 25px;
-    font-family: 'Big Shoulders Text', cursive;
-    list-style: none;
-    color: black;
-    padding-left: 1px;
-    padding-right: 7px;
-    padding-top: 10px;
-    width: 30em;
-    height: 25em;
-    right: 1em;
-    display: inline;
-    padding: 1% 10em;
-    position: relative;
-    background-color: #fff;
-    margin-right: 10px;
-
-
-}
-
-
-
-
-
 h1 {
     font-size: 32px;
     letter-spacing: 1px;
     margin: 20px 0;
     color: white;
 }
-
-/*login body */
-form action{
-    margin: 30px 0;
-    background-color: rgb(27, 27, 27);
+/*login*/
+form {
+    margin: 20px 0;
+    background-color: white;
     padding: 30px 25px;
-    border-radius: 5%;
-    width:0;
-    scroll-padding-right: 10px;
+    border-radius: 5px;
 }
-
 /*login*/
 form .input-block {
-    margin-bottom: 2px;
+    margin-bottom: 20px;
 }
-
 /*login*/
 form .input-block label {
     font-size: 14px;
     color: darkslateblue;
 }
-
 /*login*/
 form .input-block input {
-    width: 120%;
+    width: 100%;
     display: block;
     margin-top: 8px;
-    padding: 1px;
+    padding: 7px;
     font-size: 16px;
     color: #7159c1;
-    border-radius: 15px;
+    border-radius: 2px;
     border: 1px solid #ccddef;
     outline-color: #7159c1;
-    padding-right: 1px;
-    right: 2px;
-    left: 30%;
-    position: relative;
 }
-
-/*login botao entrar*/
+/*login*/
 form .btn-login {
     display: block;
     min-width: 15em;
@@ -147,9 +207,10 @@ form .btn-login {
     background-color: #29ca24;
     color: white;
     border-radius: 45px;
-    margin-top: 1px;
+    margin-top:1px;
     padding: 7px;
-    position: relative;
+    position:relative;
+    left: 10px;
     height: 50px;
 }
 
@@ -158,7 +219,6 @@ form {
     animation-name: aparicao;
     animation-duration: 500ms;
 }
-
 /*login*/
 @keyframes aparicao {
     from {
@@ -172,158 +232,13 @@ form {
     }
 }
 
-/* inicio formulario cadastro*/
+#pesquisa {
 
-input,
-label {
-    display: block;
-    outline: none;
-    width: 100%;
-    
+    color: rgb(121, 112, 112);
+    /* font-family: arial, Helvetica, sans-serif;  */
+    font-family: 'Big Shoulders Text', cursive;
 }
 
-a {
-    /* color: #E60084; */
-    color: #087c77;
-    
-}
-
-body {
-    padding-top: 5vh;
-    /* background-image: url('../img/bg-register-page.jpg'); */
-    /* background-size: cover; */
-    /* background-position-y: -150px; */
-    
-}
-
-/* form */
-#main-container {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: #FFF; */
-    color: #087c77;
-    border-radius: 20px;
-    padding: 1px;
-    /* background-color: #ece3e4; */
-
-
-}
-
-
-#main-container h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 1.6rem;
-    background-color: #087c77;
-    border-radius: 20px;
-   
-    
-
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 10em;
-    
-}
-
-.full-box {
-    flex: 1 1 100%;
-    position: relative;
-    width: 300%;
-    margin-left: 3%;
-   
-}
-
-
-.half-box {
-    flex: 1 1 45%;
-    position: relative;
-    
- 
-}
-
-.spacing {
-    margin-right: 2.5%;
-    padding-left: 1%;
-    
-    
-
-}
-
-label {
-    font-weight: bold;
-    font-size: .8rem;
-    
-    
-}
-
-input {
-    /* border-bottom: 2px solid #323232;  */
-    /* border-bottom:2px solid  #087c77;  */
-    padding: 10px;
-    font-size: .8rem;
-    margin-bottom: 40px;
-    
-
-}
-
-input:focus {
-    border-color: #087c77;
-    
-
-}
-
-input[type="submit"] {
-    background-color: #21af74;
-    color: #FFF;
-    border: none;
-    border-radius: 10px;
-    height: 60px;
-    cursor: pointer;
-    margin-top: 10px;
-    
-}
-#nome{
-    width: 70%;
-}
-#agreement {
-    margin-right: 5px;
-    
-}
-
-#agreement,
-#agreement-label {
-    display: inline-block;
-    
-    
-
-}
-
-.error-validation {
-    color: #ff1a1a;
-    position: absolute;
-    top: 57px;
-    font-size: 12px;
-    
-    
-}
-
-.template {
-    display: none;
-}
-
-#register-form,
-input {
-    width:150%;
-    
-    
-}
-
-/*FIM FORMULARIO*/
 #pq {
     padding-left: 15%;
 
@@ -476,7 +391,39 @@ label[for="bt_menu"] {
     font-family: arial, Helvetica, sans-serif;
     color: #fff;
 
+
+
+
 }
+
+/*formulario de login*/
+/* section, aqui{
+    position: relative;
+    font-family: "Open Sans";
+    color :#fff;
+    position:relative;
+    width:100%;
+    height: 100vh;
+    /* background: url(imagem/login3.jpg); */
+/*opacity: .0,5,3,5,2.5;
+    background-size: cover;
+    background-position:center center;
+  
+} */
+
+/* .form-container{
+position: absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:linear-gradient(rgba(1, 1, 8, 0.3)),(rgba(0,0,0,0.3));  /*sombra do login*/
+/*width:380px;
+padding: 50px 30px;
+border-radius: 10px;
+box-shadow:7px 7px 60px rgb(41, 39, 158);*/
+
+
+
 
 h3 {
     text-transform: uppercase;
@@ -490,8 +437,64 @@ h3 {
     width: 330px;
 }
 
+.control input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
 
 
+    border-radius: 10px;
+
+}
+
+
+.bt input [type="submit"]:hover {
+    background: crimson;
+
+}
+
+.control input,
+aqui [type="submit"]:hover {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .8;
+    transition: opacity .3s ease;
+
+}
+
+.control input [type="submit"]:hover {
+
+
+    opacity: 1;
+
+}
+
+.link {
+    text-align: center;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .3s ease;
+
+
+}
+
+.link a:hover {
+    opacity: 1;
+    /* background-color: crimson; */
+}
+
+/* Fim formulario login*/
 
 
 .principal {
@@ -504,15 +507,15 @@ h3 {
     width: 3%;
     height: 3%;
     left: 2%;
-    position: absolute;
+    position:absolute;
     display: flex;
     background-position: center;
     /* bottom:35%; */
     padding-top: 3%;
     padding-bottom: 0%;
     margin-bottom: 0.1em;
-
-
+    
+  
     /*estava em 14px antes de mexer 2111*/
 
 
@@ -536,7 +539,7 @@ h3 {
     margin-left: auto;
     border-radius: 1em;
     border-top: 1em;
-
+  
 
 
 }
@@ -557,7 +560,7 @@ h3 {
     margin-left: auto;
     border-radius: 1em;
     border-top: 1em;
-
+   
 
 
 }
@@ -578,51 +581,56 @@ h3 {
     margin-left: auto;
     border-radius: 1em;
     border-top: 1em;
-
+ 
 }
 
-#div4 {
-    background-position: center;
-    /* background-color:rgb(192, 11, 162); */
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-top: 2px;
-    padding-bottom: 10px;
-    display: inline-block;
+
+
+/* #formularioc{
+    /* background-position: center;  
+    background-color: red;
+   
+    padding-left: 1%;
+    padding-right: 10px;
+    /* padding-top: 10px; 
+    padding-bottom:10px;
+    /* display: inline-block; 
     display: flex;
-    width: 45em;
-    height: 75em;
-    border-bottom: 1em;
-    padding-top: 1px;
-    margin-left: auto;
+    width: 50px;
+    height:50px;
+    border-bottom: 1%;
+    padding-top:10em;
+    margin-left:400px;
     border-radius: 1em;
-    border-top: 1em;
+    border-top: 1em; 
+    margin-bottom: 1em;
+    margin-right: 5%;
+    position:relative; 
+    right: 25%;
+    top:0px;
+     */
+/*padding-left: 50px;
+    padding-right: 3em;
+    padding-top: 3%;*/
 
-}
+/* display: inline-block; 
+    display: flex;
+    width: 1%;
+    height: 50em;
+    padding-bottom: 45px;
+    padding: 1%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-right: 2em;
+    margin-top: 1px;
+    position: relative; */
+/* margin-left:4px; */
+/* margin-bottom: 1em; */
+/* border: 1px solid #594994; */
+/* padding-top:10px ; */
+/*margin-left:auto; */
+/* border-radius: 1em; */
 
-
-/* #div5 { */
-    
-/*IMAGEM PAGINA DE RESULTADO DE PESQUISA */
-    /* background-position: center;
-    /* background-color:rgb(192, 11, 11); */
-    /* padding-left: 3em; */
-    /* padding-right: 3em; */
-    /* padding-top: 2px; */
-    /* padding-bottom: 1px; */
-    /* display: inline-block; */
-    /* display: flex; */
-    /* width: 35em; */
-    /* height: 1em; */
-    /* border-bottom: 1em; */
-    /* padding-top: 1;
-    margin-left: auto; */
-    /* border-radius: 1em; */
-    /* border-top: 1em;  */
-
-
-
-}
 
 #imagemevento {
 
@@ -640,9 +648,8 @@ h3 {
     border-radius: 1em;
     border-top: 1em;
 }
-
-.form-group col-md-4 {
-    padding-top: 2px;
+.form-group col-md-4{
+       padding-top: 2px;
     padding-bottom: 10px;
     display: inline-block;
     display: flex;
@@ -721,7 +728,7 @@ iframe {
     /*estava em % 100%*/
     display: flex;
     position: relative;
-
+    
     padding: 1px;
 
 
@@ -870,7 +877,7 @@ textarea {
     display: inline-block;
     display: flex;
     width: 8%;
-    height: 10%;
+    height:10%;
     padding-bottom: 8%;
     padding-left: 2%;
 

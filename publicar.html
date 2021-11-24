@@ -73,65 +73,110 @@
             <li><a href="index.html">Início</a></li>
             <li>Quer publicar um rolê?</li>
         </ul>
-        <div id="formularioc">
-            <section id="sectionform">
-                <div id="casdatro">
-                    <label for="nome"><strong>Nome Completo </strong></label></br>
-                    <input id="inputt" type="text" name="nome" id="nome" required>
-                </div>
+              <!-- formulario  -->
 
-                <div id="casdatro">
-                    <label for="nome"><strong>Cpf </strong></label></br>
-                    <input id="inputt" type="text" name="CPF" id="CPF" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Data de Nascimento </strong></label></br>
-                    <input id="inputt" type="text" name="nascimento" id="nascimento" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Endereço</strong></label></br>
-                    <input id="inputt" type="text" name="endereço" id="endereço" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Numero </strong></label></br>
-                    <input id="inputt" type="text" name="numero" id="numero" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Cidade </strong></label></br>
-                    <input id="inputt" type="text" name="cidade" id="cidade" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Estado</strong></label></br>
-                    <input id="inputt" type="text" name="estado" id="estado" required>
-                </div>
-
-                <div id="casdatro">
-                    <label for="nome"><strong>Ponto de Referência </strong></label></br>
-                    <input id="inputt" type="text" name="referencia" id="referencia" required>
-                </div>
+              <div id="main-container">
+                <h1>PRE CADASTRO EVENTO</h1>
+                <form id="register-form" action="">
+                    <div class="full-box">
+                        <label for="email">Nome completo/RAZÃO SOCIAL</label>
+                        <input type="nome" name="nome" id="nome" placeholder="Digite seu nome completo" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
+                    <div class="half-box spacing">
+                        <label for="name">CPF</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
 
 
-                <div id="casdatro">
-                    <label for="nome"><strong>CEP</strong></label></br>
-                    <input id="inputt" type="text" name="CEP" id="CEP" required>
-                </div>
+                    <div class="half-box">
+                        <label for="name">CNPJ</label>
+                        <input type="text" name="cnpj" id="cnpj" placeholder="Digite o Cnpj" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
 
-                <div id="casdatro">
-                    <label for="nome"><strong>E-mail </strong></label></br>
-                    <input id="inputt" type="text" name="email" id="email" required>
-                </div></br>
+                    
+                    <div class="half-box spacing">
+                        <label for="name">Endereço</label>
+                        <input type="text" name="endereço" id="endereço" placeholder="Digite o endereço" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
 
-                <div id="publicar" class="button">
-                    <button type="submit">ENVIAR </button>
-                </div>
 
-            </section>
-        </div>
+                    <div class="half-box spacing">
+                        <label for="lastname">numero</label>
+                        <input type="number" name="number" id="number" placeholder="numero residencia"
+                            data-password-validate data-required>
+                    </div>
+
+                    <div class="half-box spacing">
+                        <label for="name">CIDADE</label>
+                        <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
+
+                    <div class="half-box spacing">
+                        <label for="name">Estado</label>
+                        <input type="text" name="estado" id="estado" placeholder="Digite o estado" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
+                    <div class="full-box">
+                        <label for="passconfirmation">CEP </label>
+                        <input type="password" name="nome" id="nome" placeholder="Digite o cep"
+                            data-equal="password">
+                    </div>
+
+                    <div class="full-box">
+                        <label for="passconfirmation">NOME DO EVENTO BANDA OU ARTISTA </label>
+                        <input type="password" name="nome" id="nome" placeholder="Digite o nome do evento banda ou artista"
+                            data-equal="password">
+                    </div>
+
+                    
+
+                    <div class="half-box spacing">
+                        <label for="name">HORARIO</label>
+                        <input type="text" name="HORARIO" id="HORARIO" placeholder="Digite o horario" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
+
+                    <div class="half-box spacing">
+                        <label for="email">FAIXA ETÁRIA</label>
+                        <input type="text" name="email" id="email" placeholder="Digite o faixa etária" data-required
+                            data-min-length="3" data-max-length="16">
+                    </div>
+
+                    <div class="full-box">
+                        <label for="passconfirmation">E-MAIL </label>
+                        <input type="text" name="email" id="email" placeholder="Digite um email"
+                            data-equal="password">
+                    </div>
+
+                    <div class="half-box spacing">
+                        <label for="lastname">VALOR DA ENTRADA </label>
+                        <input type="password" name="ENTRADA" id="ENTRADA" placeholder="Digite o valor "
+                            data-password-validate data-required>
+                    </div>
+
+                    <div class="half-box">
+                        <label for="passconfirmation">VALOR MEIA-ENTRADA </label>
+                        <input type="password" name="passconfirmation" id="passwordconfirmation"
+                            placeholder="Digite o valor da meia entrada " data-equal="password">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="agreement" id="agreement">
+                        <label for="agreement" id="agreement-label">Eu li e aceito os <a href="#">termos de
+                                uso</a></label>
+                    </div>
+                    <div class="full-box">
+                        <input id="btn-submit" type="submit" value="CADASTRAR PARA ANÁLISE">
+                    </div>
+                </form>
+                <!-- fim formulario -->
+
+
+            </div>
 
     </main>
     <!--contéudo principal da página-->

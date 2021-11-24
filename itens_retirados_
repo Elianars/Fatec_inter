@@ -1,6 +1,85 @@
- <!-- <audio controls>
+/*  <!-- <audio controls>
                 <source src="audio/metadados_.mp4" type="audio/mp4">
                 Este navegador não suporta o elemento audio ou formato de arquivo utilizado.
             </audio><br> -->
 
-            
+     background-color: rgb(87, 226, 87);
+    margin: 8px 0;
+    font-family: 'Big Shoulders Text', cursive;
+    list-style: none; 
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1%;
+    width: 15em;
+    height: 3em;
+     right: 110%;  
+    right: 1px;
+    left: 1px;
+    display:center;
+    padding: 14px 25px;
+    border-radius: 2px;
+    position:relative;       
+
+
+
+
+    <div id="formularioc"> formulario cadastrar role
+            <section id="sectionform">
+                <div id="casdatro">
+                    <label for="nome"><strong>Nome Completo </strong></label></br>
+                    <input id="inputt" type="text" name="nome" id="nome" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Cpf </strong></label></br>
+                    <input id="inputt" type="text" name="CPF" id="CPF" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Data de Nascimento </strong></label></br>
+                    <input id="inputt" type="text" name="nascimento" id="nascimento" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Endereço</strong></label></br>
+                    <input id="inputt" type="text" name="endereço" id="endereço" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Numero </strong></label></br>
+                    <input id="inputt" type="text" name="numero" id="numero" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Cidade </strong></label></br>
+                    <input id="inputt" type="text" name="cidade" id="cidade" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Estado</strong></label></br>
+                    <input id="inputt" type="text" name="estado" id="estado" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>Ponto de Referência </strong></label></br>
+                    <input id="inputt" type="text" name="referencia" id="referencia" required>
+                </div>
+
+
+                <div id="casdatro">
+                    <label for="nome"><strong>CEP</strong></label></br>
+                    <input id="inputt" type="text" name="CEP" id="CEP" required>
+                </div>
+
+                <div id="casdatro">
+                    <label for="nome"><strong>E-mail </strong></label></br>
+                    <input id="inputt" type="text" name="email" id="email" required>
+                </div></br>
+
+                <div id="publicar" class="button">
+                    <button type="submit">ENVIAR </button>
+                </div>
+
+            </section>
+        </div>
