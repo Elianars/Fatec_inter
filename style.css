@@ -39,14 +39,7 @@ section {
     padding-bottom: 80%;
 }
 
-.form-section {
-    /* background-color: #7159c1; */
-    background-color: #22d8cf;
-    background-image: imagem;
 
-
-
-}
 
 #quemsomos {
     font-family: 'Big Shoulders Text', cursive;
@@ -67,7 +60,7 @@ section {
 
 }
 
-/*formulario login*/
+/*formulario login  box do formulario*/
 .form-wrapper {
     /* background-color: rgb(42, 48, 42); */
     margin: 25px;
@@ -81,23 +74,30 @@ section {
     height: 25em;
     right: 1em;
     display: inline;
-    padding: 1% 10em;
+    padding: 1% 7em;/*centraliza os inut dentro do box*/
     position: relative;
-    background-color: #fff;
+    background-color: rgb(234, 238, 236);
     margin-right: 10px;
+    border:9px;
+    border: 1px solid #ccddef;
 
+
+}/*  plano de fundo login*/
+.form-section {
+    /* background-color: #7159c1; */
+    background-color:#fff;
+    background-image: imagem;
 
 }
 
 
 
-
-
 h1 {
-    font-size: 32px;
+    font-size: 45px;
     letter-spacing: 1px;
-    margin: 20px 0;
-    color: white;
+    margin: 70px 0;
+    color:#087c77;
+    
 }
 
 /*login body */
@@ -108,6 +108,7 @@ form action{
     border-radius: 5%;
     width:0;
     scroll-padding-right: 10px;
+  
 }
 
 /*login*/
@@ -130,27 +131,29 @@ form .input-block input {
     font-size: 16px;
     color: #7159c1;
     border-radius: 15px;
-    border: 1px solid #ccddef;
+    border: 1px solid #ccddef;/*borda do input emaile login*/
     outline-color: #7159c1;
     padding-right: 1px;
     right: 2px;
     left: 30%;
     position: relative;
+
 }
 
 /*login botao entrar*/
 form .btn-login {
     display: block;
-    min-width: 15em;
+    min-width: 18em;
     border: none;
     /* background-color: #7159c1; */
     background-color: #29ca24;
     color: white;
-    border-radius: 45px;
+    border-radius: 4px;
     margin-top: 1px;
     padding: 7px;
     position: relative;
     height: 50px;
+    
 }
 
 /*surgimento tela de login */
@@ -162,12 +165,12 @@ form {
 /*login*/
 @keyframes aparicao {
     from {
-        opacity: 0;
+        opacity: 500ms;
         transform: scale(0.9);
     }
 
     to {
-        opacity: 1;
+        opacity: 13;
         transform: scale(1);
     }
 }
@@ -211,12 +214,12 @@ body {
 }
 
 
-#main-container h1 {
+#main-container h1 { /* topo cadastre-se */
     text-align: center;
     margin-bottom: 25px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     background-color: #087c77;
-    border-radius: 20px;
+    border-radius:20px;
    
     
 
@@ -608,7 +611,8 @@ h3 {
     padding-right: 3em;
     padding-top: 2px;
      width: 80em;
-    height: 35em
+    height: 35em;
+
 }
 
 #imagemevento {
