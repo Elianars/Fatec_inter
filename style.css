@@ -4,22 +4,6 @@
     box-sizing: border-box;  
 }
 
-#topo {
-    width: 100%;
-    height: auto;
-    background-color: #087c77;
-
-}
-
-#acessibilidade {
-    width: 100%;
-    height: auto;
-    background-color: #087c77;
-    margin: auto;
-
-}
-
-
 body {
     /* background-color: #9b9999; */
     background-color: #fff;
@@ -37,6 +21,13 @@ section {
     align-items: center;
 }
 
+h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin: 70px 0;
+    color: #087c77;
+    
+}
 
 
 #quemsomos {
@@ -55,6 +46,20 @@ section {
     padding-bottom: 10%;
     margin-top: 10%;
     margin-bottom: 10%;
+
+}
+#topo {
+    width: 100%;
+    height: auto;
+    background-color: #087c77;
+
+}
+
+#acessibilidade {
+    width: 100%;
+    height: auto;
+    background-color: #087c77;
+    margin: auto;
 
 }
 
@@ -87,13 +92,6 @@ section {
 }
 
 
-h1 {
-    font-size: 45px;
-    letter-spacing: 1px;
-    margin: 70px 0;
-    color: #087c77;
-    
-}
 
 /*login body */
 .form-action{
