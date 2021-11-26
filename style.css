@@ -1,17 +1,53 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
-/* body {
+body {
+    /* background-color: #9b9999; */
+    background-color: #fff;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     display: grid;
-    /* estava no codigo antes*/
-    /*background-color: #7159c1;*/
+
+}
 
 
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin: 70px 0;
+    color: #087c77;
+    
+}
+
+
+#quemsomos {
+    font-family: 'Big Shoulders Text', cursive;
+    /* background-color: rgb(188, 188, 238); */
+    height: 55%;
+    /* background-image: url(imagem/evento.jpg );  */
+    background-repeat: no-repeat;
+    opacity: 85%;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+#imagemquemsomos {
+    width: 80%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
 #topo {
     width: 100%;
     height: auto;
@@ -27,190 +63,90 @@
 
 }
 
-
-/* html,
-body {
-    height: 100vh;
-    background-color: #212022;
-    position: absolute;
-   
-    
-} */
-
-body {
-    background-color:  #9b9999;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    display: grid;
-  
-
-}
-
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-
-    padding-bottom: 80%;
-}
-
-.form-section {
-    /* background-color: #7159c1; */
-    background-color: #22d8cf;
-    background-image:imagem;
-
-    
- 
-}
-
-.form-section,
-button {
-    background-color: rgb(87, 226, 87);
-    margin: 8px 0;
-    font-family: 'Big Shoulders Text', cursive;
-    /* list-style: none; */
-    color:black;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 1%;
-    width: 15em;
-    height: 3em;
-    /* right: 110%; */
-    right: 1px;
-    left: 1px;
-    display:center;
-    padding: 14px 25px;
-    border-radius: 2px;
-    position:relative;
- 
-}
-.form-section,
-publicar {
-    background-color: rgb(211, 204, 108);
-    margin: 2px ;
-    font-family: 'Big Shoulders Text', cursive;
-    /* list-style: none; */
-    color:black;
-    padding-left: 10em;
-    padding-right: 100rem;
-    padding-top: 4px;
-    width: 100%;
-    height: 100rem;
-    right: 110%;
-    display:center;
-    padding: 5em 5px;
-    border-radius: 2px; /*bore*/
-    position:relative;
-    padding-bottom: 10em;
- 
-}
+/*formulario login  box do formulario*/
 .form-wrapper {
     /* background-color: rgb(42, 48, 42); */
-    margin: 8px 0;
+    margin: 25px;
     font-family: 'Big Shoulders Text', cursive;
-    /* list-style: none; */
-    color:black;
+    list-style: none;
+    color: black;
     padding-left: 1px;
-    padding-right: 10px;
+    padding-right: 7px;
     padding-top: 10px;
-    width: 50em;
-    height: 100em;
+    width: 30em;
+    height: 25em;
     right: 1em;
-    display:inline;
-    padding: 1% 10em;
+    display: inline;
+    padding: 1% 7em;/*centraliza os inut dentro do box*/
     position: relative;
+    background-color: rgb(227, 236, 232);
+    margin-right: 10px;
+    border:9px;
+    border-radius: 10%;
     
-   
- 
-}
-#publicar {
-    /* background-color: rgb(42, 48, 42); */
-    margin: 8px 0;
-    font-family: 'Big Shoulders Text', cursive;
-    /* list-style: none; */
-    color:black;
-    padding-left: 1px;
-    padding-right: 10px;
-    padding-top: 10px;
-    width: 15;
-    height: 80%;
-    right: 11%;
-    display:inline;
-    padding: 1em 10em;
-    position: relative;
-    
-   
- 
+
+
+}/*  plano de fundo login*/
+.form-section {
+    background-color:#fff;
 }
 
 
-#quemsomos{
-    font-family: 'Big Shoulders Text', cursive;
-    background-color: rgb(188, 188, 238); 
-   height: 70%;
-    /* background-image: url(imagem/evento.jpg );  */
-    background-repeat:no-repeat;
-    opacity: 85%;
-    margin-top: 10%;
-    padding-bottom: 1%;
-}
-#imagemquemsomos{
-    width: 80%;
-    padding-bottom: 10%;
-    margin-top: 10%;
-    margin-bottom: 10%;
 
-}
-h1 {
-    font-size: 32px;
-    letter-spacing: 1px;
-    margin: 20px 0;
-    color: white;
-}
-
-form {
-    margin: 20px 0;
-    background-color: white;
+/*login body */
+.form-action{
+    margin: 30px 0;
+    background-color: rgb(27, 27, 27);
     padding: 30px 25px;
-    border-radius: 5px;
+    border-radius: 5%;
+    width:0;
+    scroll-padding-right: 10px;
+  
 }
 
+/*login*/
 form .input-block {
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
+/*login*/
 form .input-block label {
     font-size: 14px;
-    color: darkslateblue;
+    color:#087c77;
 }
 
+/*login*/
 form .input-block input {
-    width: 100%;
+    width: 120%;
     display: block;
     margin-top: 8px;
-    padding: 7px;
+    padding: 1px;
     font-size: 16px;
     color: #7159c1;
-    border-radius: 2px;
-    border: 1px solid #ccddef;
+    border-radius: 15px;
+    border: 1px solid #ccddef;/*borda do input emaile login*/
     outline-color: #7159c1;
+    padding-right: 1px;
+    right: 2px;
+    left: 30%;
+    position: relative;
+
 }
 
+/*login botao entrar*/
 form .btn-login {
     display: block;
-    min-width: 15em;
+    min-width: 18em;
     border: none;
     /* background-color: #7159c1; */
     background-color: #29ca24;
     color: white;
-    border-radius: 45px;
-    margin-top:1px;
+    border-radius: 4px;
+    margin-top: 1px;
     padding: 7px;
-    position:relative;
-    left: 10px;
+    position: relative;
     height: 50px;
+    
 }
 
 /*surgimento tela de login */
@@ -219,25 +155,206 @@ form {
     animation-duration: 500ms;
 }
 
+h6{
+    margin-left: 40%;
+    display: flex;
+    margin-top: 8%;
+    width:100%;
+    color:#087c77
+    
+}
+
+/*login*/
 @keyframes aparicao {
     from {
-        opacity: 0;
+        opacity: 500ms;
         transform: scale(0.9);
     }
 
     to {
-        opacity: 1;
+        opacity: 13;
         transform: scale(1);
     }
 }
 
-#pesquisa {
+/* inicio formulario cadastro*/
 
-    color: rgb(121, 112, 112);
-    /* font-family: arial, Helvetica, sans-serif;  */
-    font-family: 'Big Shoulders Text', cursive;
+input,
+label {
+    display: block;
+    outline: none;
+    width: 100%;
+    
 }
 
+a {
+    /* color: #E60084; */
+    color: #087c77;
+    
+}
+
+
+
+/* form  cadastre e publicar*/
+#main-container {
+    font-family: 'Big Shoulders Text', cursive;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: aurpx; */
+
+    color: #030303;/*label*/
+    border-radius: 20px;
+    padding: 1%;
+    
+
+
+}
+
+
+#main-container h1 { /* topo cadastre-se */
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.8rem;
+    background-color:rgb(18, 201, 79);
+    color:#000;
+    border-radius:20px;
+    margin: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 102%;
+    
+    
+
+}
+#bbbb{
+    width: 100px;
+    height: 300%;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 10em;
+    
+}
+
+.full-box {
+    flex: 1 1 100%;
+    position: relative;
+    width: 300%;
+    margin-left: 3%;
+   
+}
+
+
+.half-box {
+    flex: 1 1 45%;
+    position: relative;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    
+ 
+}
+
+.spacing {
+    margin-right: 1.5%;
+    padding-left: 1%;
+    
+    
+
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    
+    
+}
+
+input {
+    /* border-bottom: 2px solid #323232;  */
+    /* border-bottom:2px solid  #087c77;  */
+    padding: 10px;
+    font-size: .8rem;
+    margin-bottom: 40px;
+    
+
+}
+
+input:focus {
+    border-color: #087c77;
+    
+
+}
+
+input[type="submit"] {
+    background-color: #21af74;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 35px;
+    width: 65%;
+    
+}
+#nome{
+    width: 70%;
+}
+#agreement {
+    margin-right: 50px;
+    padding-left: 40%;
+    
+    
+}
+
+#agreement,
+#agreement-label {
+    display: inline-block;
+    padding-left: 20%;
+    
+    
+
+}
+
+.error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+    
+    
+}
+
+.template {
+    display: none;
+}
+
+#register-form,
+input {
+    width:150%;
+    margin:1px,15px,10px,25px;
+    
+    
+}
+
+/*FIM FORMULARIO*/
+
+
+#botaBusca{  /*botao busca evento */
+    /* margin:15px; */
+    margin-top:0,5em;
+    display: flex;
+    width: 30%;
+    height: 45px;
+    margin-left: 3px;
+    padding:1px;
+    padding-inline: 10%;
+
+}
 #pq {
     padding-left: 15%;
 
@@ -284,7 +401,7 @@ form {
 
 }
 
-/*barra de navegação*/
+/*barra de navegaÃ§Ã£o*/
 nav {
     width: 100%;
     min-height: none;
@@ -304,7 +421,7 @@ nav {
     background-color: #000;
     width: 100%;
     height: 27px;
-    padding-left: 5%;
+    padding-left: 1%;
 
 
 }
@@ -371,11 +488,11 @@ label[for="bt_menu"] {
 
 #conteudo {
     width: 100%;
-    min-height: 900px;
+    height: 100%;
     font-family: arial, Helvetica, sans-serif;
     font-size: 1em;
     text-align: justify;
-    background-color: #fff;
+    /* background-color: red; */
 
 }
 
@@ -390,39 +507,7 @@ label[for="bt_menu"] {
     font-family: arial, Helvetica, sans-serif;
     color: #fff;
 
-
-
-
 }
-
-/*formulario de login*/
-/* section, aqui{
-    position: relative;
-    font-family: "Open Sans";
-    color :#fff;
-    position:relative;
-    width:100%;
-    height: 100vh;
-    /* background: url(imagem/login3.jpg); */
-/*opacity: .0,5,3,5,2.5;
-    background-size: cover;
-    background-position:center center;
-  
-} */
-
-/* .form-container{
-position: absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-background:linear-gradient(rgba(1, 1, 8, 0.3)),(rgba(0,0,0,0.3));  /*sombra do login*/
-/*width:380px;
-padding: 50px 30px;
-border-radius: 10px;
-box-shadow:7px 7px 60px rgb(41, 39, 158);*/
-
-
-
 
 h3 {
     text-transform: uppercase;
@@ -436,119 +521,68 @@ h3 {
     width: 330px;
 }
 
-.control input {
-    width: 100%;
-    display: block;
-    padding: 10px;
-    color: #222;
-    border: none;
-    outline: none;
-    margin: 1em 0;
-
-
-    border-radius: 10px;
-
+h2 {
+    font-size: 1em;
+    padding: 20px;
+    margin-left: 0,1%;
 }
-
-
-.bt input [type="submit"]:hover {
-    background: crimson;
-
+h4{
+    font-size: 16px;
+    padding: 18px;
 }
-
-.control input,
-aqui [type="submit"]:hover {
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    opacity: .8;
-    transition: opacity .3s ease;
-
-}
-
-.control input [type="submit"]:hover {
-
-
-    opacity: 1;
-
-}
-
-.link {
-    text-align: center;
-
-}
-
-.link a {
-    text-decoration: none;
-    color: #fff;
-    opacity: .7;
-    transition: opacity .3s ease;
-
-
-}
-
-.link a:hover {
-    opacity: 1;
-    /* background-color: crimson; */
-}
-
-/* Fim formulario login*/
 
 
 .principal {
-    float: none;
-    margin-left: none;
-    /* background-color:rgb(160, 214, 12); */
-    padding-left: 1px;
-    padding-right: 45%;
-    display: inline-block;
-    width: 3%;
-    height: 3%;
-    left: 2%;
-    position:absolute;
     display: flex;
+    /* background-color: darkblue; */
+}
+
+.imgTam{
+    width: 50%;
+    height: 100%;
+}
+
+#div4 {
     background-position: center;
-    /* bottom:35%; */
-    padding-top: 3%;
-    padding-bottom: 0%;
-    margin-bottom: 0.1em;
-    
-  
-    /*estava em 14px antes de mexer 2111*/
-
-
+    /* background-color:rgb(192, 11, 162); */
+    padding-left: 800px;
+    padding-right: 3px;
+    margin-bottom: 10px;
+    padding-top: 2px;
+    width: 80px;
+    height: 35px;
+   
 
 }
 
-#div1 {
 
+#div5 {
     background-position: center;
-    /* background-color:rgb(192, 11, 11); */
+    /* background-color:rgb(192, 11, 162); */
     padding-left: 3em;
     padding-right: 3em;
     padding-top: 2px;
-    padding-bottom: 10px;
-    display: inline-block;
-    display: flex;
-    width: 35em;
+     width: 80em;
     height: 35em;
+<<<<<<< HEAD
     border-bottom: 1em;
     padding-top: 1;
     margin-left: auto;
     border-radius: 1em;
     border-top: 1em;
+=======
+
+>>>>>>> 6b632c6984cdb2e987ce28a03f02b355a042f60f
 }
 
-#div2 {
-    background-position: center;
-    /* background-color:rgb(30, 70, 180); */
+#imagemevento {
+
     padding-top: 2px;
     padding-bottom: 10px;
     display: inline-block;
     display: flex;
-    width: 35em;
-    height: 35em;
+    width: 100%;
+    height: 50em;
     border-bottom: 1em;
     padding-top: 1;
     padding-left: 4em;
@@ -558,6 +592,7 @@ aqui [type="submit"]:hover {
     border-top: 1em;
 }
 
+<<<<<<< HEAD
 #div3 {
     background-position: center;
     /* background-color:rgb(192, 11, 162); */
@@ -626,6 +661,9 @@ aqui [type="submit"]:hover {
 
 #imagemevento {
 
+=======
+.form-group col-md-4 {
+>>>>>>> 6b632c6984cdb2e987ce28a03f02b355a042f60f
     padding-top: 2px;
     padding-bottom: 10px;
     display: inline-block;
@@ -639,34 +677,42 @@ aqui [type="submit"]:hover {
     margin-left: auto;
     border-radius: 1em;
     border-top: 1em;
+
 }
 
 #teste11 {
     background-color: #fff;
-    float: none;
-    margin-left: none;
+    /* float: none; */
+    /* margin-left: none; */
     /* background-color:rgb(160, 214, 12); */
-    padding-left: 100px;
+    padding-left:2%;
     /* padding-right: 0%; */
-    display: inline-block;
-    padding-bottom: 1em;
-    padding-top: 50px;
-    width: 100%;
+    /* display: inline-block; */
+    /* padding-bottom: 10px; */
+    /* padding-top: 50%; */
+    width: 1%;
     height: 100%;
-    position: relative;
-    position: relative;
+    /* position: relative; */
+    /* position: relative; */
     display: flex;
-    bottom: auto;
-    padding-top: 3%;
+    /* bottom: auto; */
+    /* padding-top: 10%; */
     /*estava em 14px antes de mexer 2111*/
 
 
 }
 
-.venda {
+.venda {/*h2 pagina*/
     display: inline;
-    padding-left: 35%;
+    padding-left: 65%;
+    margin-left: 25px;
+    color:#ec5b18;
+    width: 100%;
+    height: 30%;
+    
+    
 }
+
 
 #inputt {
     height: 3em;
@@ -691,23 +737,9 @@ iframe {
 
 #rodape {
     font-family: 'Big Shoulders Text', cursive;
-    list-style: none;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 15px;
     color: #000;
     background-color: #9b9999;
-    padding-top: 1px;
-    text-align: center;
-    width: 100%;
-    height: 65%;
-    /*estava em % 100%*/
-    display: flex;
-    position: relative;
     
-    padding: 1px;
-
-
 }
 
 input,
@@ -750,7 +782,11 @@ textarea {
     padding-left: 2%;
     list-style: none;
 }
-
+ .buscandoevento{
+     /* margin:1px,2px,3px,6px; */
+     width: 70%;
+     padding-left:25%;
+    }
 .breadcrumb li {
     display: inline;
     font-family: arial, Helvetica, sans-serif;
@@ -853,7 +889,7 @@ textarea {
     display: inline-block;
     display: flex;
     width: 8%;
-    height:10%;
+    height: 10%;
     padding-bottom: 8%;
     padding-left: 2%;
 
@@ -911,22 +947,24 @@ textarea {
 #faleconosco {
     width: 10%;
     height: 80%;
-
-    /* margin-left: 5%;
-    margin-top: 1.5em;
-    display:inline-block; */
 }
 
 #copyright {
-    width: 10%;
-    height: 80%;
-    text-align: center;
-    margin-left: 5em;
-    /* text-indent: 1%;
-    font-size: 0.8em;
-    padding-top: 15%;
-    text-align: justify;
-    margin-left: 5em;
-    right: 80em; */
-
+    background-color: #9b9999;
+    
+}
+#test{
+    display:flex;
+    font-family: 'Big Shoulders Text', cursive;
+   
+}
+ul { 
+    list-style: none;
+}
+.testNay{
+    margin: 5px 100px 5px 10px;
+    padding: 10px;
+}
+#testimg {
+    margin-left: 70% ;
 }
