@@ -8,7 +8,7 @@
     <!-- <meta name="description" content="Aula comentários, metadados, listas e layout">
     <meta name="keyword" content="HTML, Comentários, Listas, Layout, Elemetos Semânticos"> -->
     <meta name="author" content="Talita Alves">
-    <title>Aula 12</title>
+    <title>BORA PRO ROLÊ</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imagem/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@800&display=swap" rel="stylesheet">
@@ -83,71 +83,72 @@
                     <h1>Cadastre-se</h1>
                     <form id="register-form" action="">
                         <div class="full-box">
-                            <label for="email">Nome completo</label>
-                            <input type="nome" name="nome" id="nome" placeholder="Digite seu nome completo"
+                            <label for="text" class="required">Nome completo</label>
+                            <input type="nome"  name="nome" id="nome" required placeholder="Digite seu nome completo"
                                 data-required data-min-length="3" data-max-length="16">
                         </div>
                         <div class="half-box spacing">
-                            <label for="name">CPF</label>
+                            <!-- <label for="name">CPF</label>
                             <input type="text" name="cpf" id="cpf" placeholder="Digite seu CPF" data-required
-                                data-min-length="3" data-max-length="16">
+                                data-min-length="3" data-max-length="16"> -->
+                                <label for="cpf" class="required">CPF</label><br>
+                    <input type="text" name="cpf" id="cpf" required placeholder="000.000.000.00"><br>
                         </div>
                         <div class="half-box">
-                            <labe for="name">Data de Nascimento</labe>
-                            <input id="text" type="date" name="data" placeholder="Digite sua data de nascimento"
+                            <labe for="data"  class="required">Data de Nascimento</labe>
+                            <input id="text" type="date" name="date" placeholder="Digite sua data de nascimento"
                                 required ata-required data-min-length="3" data-max-length="16">
                         </div>
                         <div class="half-box spacing">
-                            <label for="name">Endereço</label>
+                            <label for="endereço" class="required">Endereço</label>
                             <input type="text" name="endereço" id="endereço" placeholder="Digite o endereço"
                                 data-required data-min-length="3" data-max-length="16">
                         </div>
 
 
                         <div class="half-box spacing">
-                            <label for="lastname">numero</label>
+                            <label for="lastname "class="required">numero</label>
                             <input type="number" name="number" id="number" placeholder="numero residencia"
                                 data-password-validate data-required>
                         </div>
 
                         <div class="half-box spacing">
-                            <label for="name">CIDADE</label>
-                            <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" data-required
+                            <label for="name" class="required">CIDADE</label>
+                            <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade" required
                                 data-min-length="3" data-max-length="16">
                         </div>
 
                         <div class="half-box spacing">
-                            <label for="name">Estado</label>
+                            <label for="name" class="required">Estado</label>
                             <input type="text" name="estado" id="estado" placeholder="Digite o estado" data-required
                                 data-min-length="3" data-max-length="16">
                         </div>
                         <div class="full-box">
-                            <label for="passconfirmation">Ponto de referencia </label>
-                            <input type="password" name="nome" id="nome" placeholder="Digite Ponto de referência"
-                                data-equal="password">
+                            <label for="text" >Ponto de referencia </label>
+                            <input type="nome" name="nome" id="nome" placeholder="Digite Ponto de referência"
+                                data-equal="text">
                         </div>
 
 
                         <div class="half-box spacing">
-                            <label for="name">CEP</label>
-                            <input type="text" name="CEP" id="CEP" placeholder="Digite o CEP" data-required
+                            <label for="name" class="required">CEP</label>
+                            <input type="text" name="CEP" id="CEP" required placeholder="000.000-000" data-required
                                 data-min-length="3" data-max-length="16">
                         </div>
 
                         <div class="half-box spacing">
-                            <label for="email">E-mail</label>
-                            <input type="text" name="email" id="email" placeholder="Digite o e-mail" data-required
-                                data-min-length="3" data-max-length="16">
+                                <label for="email"class="required" class="required">E-mail</label><br>
+                                <input type="email" name="email" id="email" required placeholder="nome@dominio.com.br"><br>
                         </div>
 
                         <div class="half-box spacing">
-                            <label for="lastname">Senha</label>
+                            <label for="lastname"class="required">Senha</label>
                             <input type="password" name="password" id="password" placeholder="Digite sua senha"
                                 data-password-validate data-required>
                         </div>
 
                         <div class="half-box">
-                            <label for="passconfirmation">Confirmação de senha</label>
+                            <label for="passconfirmation" class="required">Confirmação de senha</label>
                             <input type="password" name="passconfirmation" id="passwordconfirmation"
                                 placeholder="Digite novamente sua senha" data-equal="password">
                         </div>
