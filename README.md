@@ -37,14 +37,14 @@ entretenimento.**
 ## :computer: Tecnologias Utilizadas
 
 <p align="center">
-      <img src="imagem" >![ferramentasusadas](https://user-images.githubusercontent.com/72577082/143666774-7ab0d97e-c84e-4657-816b-bab227405542.jpg)
+          <img src="./imagem/ferramentasusadas.jpg" >
 
       
 <p align="center">
 
 
 
-* **Front-end:** HTML, CSS e JAVASCRIPT          <img src="./imagem/annita-red.jpg"
+* **Front-end:** HTML, CSS e JAVASCRIPT       
 
 * **Ferramentas:** Visual Studio Code
 
