@@ -897,7 +897,7 @@ textarea {
     }
      
     @media screen and (max-width: 1028px) {
-
+    
         #pgacess {
             padding-left: 30%;
         }
@@ -907,5 +907,6 @@ textarea {
             #pgacess {
                 padding-left: 30%;
             }
-
+        }
     }
+}
