@@ -29,6 +29,7 @@ h1 {
     
 }
 
+
 #quemsomos {
     font-family: 'Big Shoulders Text', cursive;
     /* background-color: rgb(188, 188, 238); */
@@ -537,8 +538,6 @@ h4{
 }
 
 .imgTam{
-    min-width: 320px;
-    max-width: 800px;
     width: 50%;
     height: 100%;
 }
@@ -662,91 +661,6 @@ iframe {
     color: #000;
     background-color: #9b9999;
     
-}
-#mapa {
-    margin-right: 8%;
-    margin-top: 8px;
-    display: inline-block;
-    display: flex;
-    width: 8%;
-    height: 10%;
-    padding-bottom: 8%;
-    padding-left: 2%;
-
-
-}
-
-#cidades {
-    list-style: none;
-    width: 10%;
-    height: 80%;
-
-}
-
-#eventos {
-    list-style: none;
-    width: 1em;
-    height: 80%;
-}
-
-#cidades {
-    list-style: none;
-    justify-content: space-around;
-    width: 15%;
-    height: 80%;
-}
-
-#categorias {
-    list-style: none;
-    width: 10%;
-    height: 80%;
-
-}
-
-#seurole {
-    width: 10%;
-    height: 80%;
-
-    list-style: none;
-
-}
-
-#ajuda {
-    list-style: none;
-    width: 10%;
-    height: 80%;
-
-}
-
-#home {
-    width: 10%;
-    height: 80%;
-
-}
-
-#faleconosco {
-    width: 10%;
-    height: 80%;
-}
-
-#copyright {
-    background-color: #9b9999;
-    
-}
-#test{
-    display:flex;
-    font-family: 'Big Shoulders Text', cursive;
-   
-}
-ul { 
-    list-style: none;
-}
-.testNay{
-    margin: 5px 100px 5px 10px;
-    padding: 10px;
-}
-#testimg {
-    margin-left: 70% ;
 }
 
 input,
@@ -890,22 +804,88 @@ textarea {
     }
 }
 
-@media screen and (max-width: 1440px) {
+#mapa {
+    margin-right: 8%;
+    margin-top: 8px;
+    display: inline-block;
+    display: flex;
+    width: 8%;
+    height: 10%;
+    padding-bottom: 8%;
+    padding-left: 2%;
 
-    #pgacess {
-        padding-left: 30%;
-    }
-     
-    @media screen and (max-width: 1028px) {
 
-        #pgacess {
-            padding-left: 30%;
-        }
+}
 
-        @media screen and (max-width: 1024px) {
+#cidades {
+    list-style: none;
+    width: 10%;
+    height: 80%;
 
-            #pgacess {
-                padding-left: 30%;
-            }
+}
 
-    }
+#eventos {
+    list-style: none;
+    width: 1em;
+    height: 80%;
+}
+
+#cidades {
+    list-style: none;
+    justify-content: space-around;
+    width: 15%;
+    height: 80%;
+}
+
+#categorias {
+    list-style: none;
+    width: 10%;
+    height: 80%;
+
+}
+
+#seurole {
+    width: 10%;
+    height: 80%;
+
+    list-style: none;
+
+}
+
+#ajuda {
+    list-style: none;
+    width: 10%;
+    height: 80%;
+
+}
+
+#home {
+    width: 10%;
+    height: 80%;
+
+}
+
+#faleconosco {
+    width: 10%;
+    height: 80%;
+}
+
+#copyright {
+    background-color: #9b9999;
+    
+}
+#test{
+    display:flex;
+    font-family: 'Big Shoulders Text', cursive;
+   
+}
+ul { 
+    list-style: none;
+}
+.testNay{
+    margin: 5px 100px 5px 10px;
+    padding: 10px;
+}
+#testimg {
+    margin-left: 70% ;
+}
