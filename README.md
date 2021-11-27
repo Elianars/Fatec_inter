@@ -3,7 +3,7 @@
 <p align="center">
       <img src="/Imagens_Geral/logo_squad.png" width="200" height="200">
 <p align="center">
-
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 <hr>
 
 <p align="center">
