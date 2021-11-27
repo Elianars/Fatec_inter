@@ -37,7 +37,8 @@ entretenimento.**
 ## :computer: Tecnologias Utilizadas
 
 <p align="center">
-      <img src="ima" >
+      <img src="imagem" >![ferramentasusadas](https://user-images.githubusercontent.com/72577082/143666774-7ab0d97e-c84e-4657-816b-bab227405542.jpg)
+
       
 <p align="center">
 
