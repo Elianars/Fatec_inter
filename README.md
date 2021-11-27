@@ -48,4 +48,4 @@ entretenimento.**
 
 
 
- <h1 align="center"> <img src = "/Imagens_Geral/recode.png" height="90" /></h1>
+
