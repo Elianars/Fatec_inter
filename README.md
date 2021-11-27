@@ -1,4 +1,5 @@
-![LOGO1 BANNERPRINCIPAL](https://user-images.githubusercontent.com/72577082/143667260-8f77ed0f-22a1-48b7-8dce-db1733457e31.png width 400px)
+<p align="center">
+![LOGO1 BANNERPRINCIPAL](https://user-images.githubusercontent.com/72577082/143667260-8f77ed0f-22a1-48b7-8dce-db1733457e31.png )
 <br>
 
 
