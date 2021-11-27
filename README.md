@@ -44,7 +44,7 @@ entretenimento.**
 
 
 
-* **Front-end:** HTML, CSS e JAVASCRIPT
+* **Front-end:** HTML, CSS e JAVASCRIPT          <img src="./imagem/annita-red.jpg"
 
 * **Ferramentas:** Visual Studio Code
 
