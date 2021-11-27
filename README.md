@@ -1,8 +1,8 @@
 <br>
 
 <p align="center">
-      ![Alt text](relative/path/to/img.jpg?raw=true "Title")
-      <img src="/Imagens_Geral/logo_squad.png" width="200" height="200">
+  ![LOGO1 BANNERPRINCIPAL](https://user-images.githubusercontent.com/72577082/143667141-e349d941-3790-4950-98fa-1471059b29ae.png)
+
 <p align="center">
 
 <hr>
