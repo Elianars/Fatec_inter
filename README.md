@@ -41,6 +41,9 @@ entretenimento.**
 
       
 <p align="center">
+      <p align="center">
+      <img src="/imagem/ferramentasusadas.jpg"> width="200" height="200">
+<p align="center">
 
 
 
